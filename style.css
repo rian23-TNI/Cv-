@@ -1,8 +1,9 @@
 .cv-img{
     width: 100%;
     max-width: 900px;
-    height: 170px;
+    height: 100%;
     display: block;
     margin:auto;
 }
+
 
