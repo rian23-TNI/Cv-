@@ -1,13 +1,12 @@
-.container {
+.foto {
   width: 100vw;
   height: 100vh;
 
-  display: flex;
-  justify-content: center; /* tengah horizontal */
-  align-items: center;     /* tengah vertikal */
-}
+  background-image: url("CV.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 
-img {
-  max-width: 100%;
-  max-height: 100%;
+  touch-action: none;
+  user-select: none;
 }
