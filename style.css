@@ -1,14 +1,13 @@
-.cv-img{
-    width: 100%;
-    max-width: 900px;
-    height: 80vh;
-    display: block;
-    margin:auto;
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center; /* tengah horizontal */
+  align-items: center;     /* tengah vertikal */
 }
 
-
-
-
-
-
-
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
