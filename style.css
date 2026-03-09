@@ -1,5 +1,5 @@
 .foto {
-  width: 100vw;
+  width: 100vh;
   height: 100vh;
 
   background-image: url("CV.jpg");
@@ -10,3 +10,4 @@
   touch-action: none;
   user-select: none;
 }
+
