@@ -29,9 +29,16 @@ user-select:none;      /* tidak bisa diseleksi */
 
 <body oncontextmenu="return false"> <!-- blok klik kanan -->
 
-<img src="cv.jpg" draggable="false">
+<img src="CV.jpg" draggable="false">
 
 </body>
+  <script>
+document.addEventListener('keydown', function(e) {
+if (e.ctrlKey && (e.key === 's' || e.key === 'u')) {
+e.preventDefault();
+}
+});
+</script>
 </html>
 
 
